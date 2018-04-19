@@ -53,6 +53,7 @@ public class Money {
         n = d * .1490768417;
         return n;
     }
+    //try not to use bitcoin since bitcoin changes everyday
     public double USDtoBit(double d){
         double n;
         n = d * .001616893;
